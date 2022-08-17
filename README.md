@@ -5,8 +5,8 @@ vulgar2gff converts exonerate vulgar output to hierarchical gff3 format that is 
 ### Usage
 Get some data:
 ```
-curl 'http://rest.ensembl.org/sequence/region/mouse/5:150522000-150571000' -H 'Content-type:text/x-fasta' > mouse_brca2_gene.nuc
-curl 'http://rest.ensembl.org/sequence/id/ENSP00000369497.3' -H 'Content-type:text/x-fasta' > human_brca2_protein.pep
+curl 'http://rest.ensembl.org/sequence/region/mouse/5:150445000-150495000' -H 'Content-type:text/x-fasta' > mouse_brca2_gene.nuc
+curl 'http://rest.ensembl.org/sequence/id/ENSP00000369497' -H 'Content-type:text/x-fasta' > human_brca2_protein.pep
 ```
 Run exonerate:
 ```
